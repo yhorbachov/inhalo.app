@@ -282,6 +282,13 @@ GEM
       faraday (>= 0.17.3, < 3)
     securerandom (0.4.1)
     simpleidn (0.2.3)
+    tailwindcss-ruby (4.1.8)
+    tailwindcss-ruby (4.1.8-aarch64-linux-gnu)
+    tailwindcss-ruby (4.1.8-aarch64-linux-musl)
+    tailwindcss-ruby (4.1.8-arm64-darwin)
+    tailwindcss-ruby (4.1.8-x86_64-darwin)
+    tailwindcss-ruby (4.1.8-x86_64-linux-gnu)
+    tailwindcss-ruby (4.1.8-x86_64-linux-musl)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     typhoeus (1.4.1)
@@ -304,6 +311,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  tailwindcss-ruby (~> 4.1)
 
 BUNDLED WITH
    2.6.9
