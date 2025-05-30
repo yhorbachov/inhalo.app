@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="min-h-screen">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png" />
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body class="bg-neutral-950 text-neutral-50 min-h-screen flex flex-col">
+    <div class="border-b border-neutral-700">
+      <div class="container mx-auto px-4 max-w-6xl py-4">
+        <a
+          class="flex gap-4 text-xl items-center text-neutral-200 hover:text-neutral-100 transition-colors"
+          href="/"
+        >
+          <img src="/assets/images/logo.jpg" class="w-8 h-8 rounded-lg" />
+          Inhalo
+        </a>
+      </div>
+    </div>
+    <main class="container mx-auto px-4 max-w-6xl flex-1">{{ content }}</main>
+
+    <footer class="border-t border-neutral-700 text-neutral-400 py-8">
+      <div class="container mx-auto max-w-6xl text-center">
+        <div class="mb-4">
+          Inhalo is a lovingly crafted independent app by Yevhen Horbachov. Have
+          questions, feedback, or just want to say hi? I'd love to hear from
+          you.
+        </div>
+        <div>© Yevhen Horbachov - All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
