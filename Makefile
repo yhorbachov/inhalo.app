@@ -10,10 +10,10 @@ dev:
 	@$(MAKE) jekyll-serve & $(MAKE) tailwind-watch
 	@wait
 
-tailwind-watch:
+tailwind:
 	bundle exec tailwindcss -i $(TAILWIND_INPUT) -o $(TAILWIND_OUTPUT) --watch
 
-jekyll-serve:
+serve:
 	bundle exec jekyll serve --livereload
 
 build:
